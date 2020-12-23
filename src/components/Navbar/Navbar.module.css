@@ -1,0 +1,22 @@
+.nav {
+    grid-area: n;
+    background-color: slategrey;
+    padding: 20px;
+}
+
+.item a {
+    display: block;
+    margin-bottom: 10px;
+    color: beige;
+    text-decoration: none;
+    transition: color .2s;
+
+}
+
+.item a:hover {
+    color: sandybrown;
+}
+
+.item a.activeLink {
+    color: sandybrown;
+}
